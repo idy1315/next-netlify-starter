@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width">
+
+    <title>Youtube</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+  </head>
+
+  <body topmargin="0"  leftmargin="0" marginwidth="0" marginheight="0">
+    <header>
+    <h1 id="front" style="text-align:center; font-size:8px;font-color:white;background:#F6C744padding:0px;">Hole of Mines</h1><hr style="margin-top:0px;margin-bottom:40px;">
+    </header>
+    <nav style="top:5%;margin:5px;float:left; position:sticky;display:inline-block;width:26%;display:inline-block;background:#90ee90;height:100%;">
+      
+      <h1 style="font-size:150%; text-align:center">Public Information</h1>
+      
+      <ul style="margin-left:0%;padding:2%">
+        <button onclick="myclick('nav_1');">➕</button><a href="#Motto" style="font-size:80%;">Life's direction</a>
+          <ul style="display:none" id='nav_1';>
+            <li><a href="#Motto" style="font-size:80%;">Motto</a></li>
+            <li>Why Challenge</li>
+            <li>Goals</li>
+          </ul>
+<br>
+        <button onclick="myclick('nav_2');">➕</button><a href="#Motto" style="font-size:80%;">Coding Experiences</a>
+          <ul style="display:none" id='nav_2';>
+            <li>Python</li>
+            <li>C</li>
+            <li>Object-oriented language</li>
+
+
+          </ul>
+<br>
+        <button onclick="myclick('nav_3');">➕</button><a href="#Motto" style="font-size:80%;">Majors</a>
+          <ul style="display:none" id='nav_3';>
+            <li><a href="#Motto" style="font-size:80%;">Computer science</a></li>
+            <li><a href="#Motto" style="font-size:80%;">Want-to-knows</a></li>
+          </ul>
+<br>
+        <button onclick="myclick('nav_4');">➕</button><a href="#Motto" style="font-size:80%;">Primary Problems</a>
+          <ul style="display:none" id='nav_4';>
+            <li><a href="#Motto" style="font-size:80%;">about Math</a></li>
+            <li><a href="#Motto" style="font-size:80%;">Order of works</a></li>
+          </ul>
+<br>
+        <button onclick="myclick('nav_5');">➕</button><a href="#Motto" style="font-size:80%;">Machine Learning</a>
+          <ul style="display:none" id='nav_5';>
+            <li><a href="#Motto" style="font-size:80%;">Study logs</a></li>
+            <li><a href="#Motto" style="font-size:80%;">Objective</a></li>
+          </ul>
+<br>
+        <button onclick="myclick('nav_6');">➕</button><a href="#Motto" style="font-size:80%;">Quantum mechanics and computer</a>
+          <ul style="display:none" id='nav_6';>
+            <li><a href="#Motto" style="font-size:80%;">Study logs</a></li>
+            <li><a href="#Motto" style="font-size:80%;">Objective</a></li>
+          </ul>
+<br>
+        <button onclick="myclick('nav_7');">➕</button><a href="#Motto" style="font-size:80%;">Information security</a>
+          <ul style="display:none" id='nav_7';>
+            <li><a href="#Motto" style="font-size:80%;">Study logs</a></li>
+            <li><a href="#Motto" style="font-size:80%;">Objective</a></li>
+          </ul>
+<br>
+        <button onclick="myclick('nav_8');">➕</button><a href="#Motto" style="font-size:80%;">Hobby</a>
+          <ul style="display:none" id='nav_8';>
+            <li><a href="#Motto" style="font-size:80%;">Bike</a></li>
+            <li><a href="#Motto" style="font-size:80%;">Music</a></li>
+            <li><a href="#Motto" style="font-size:80%;">Searcing Information</a></li>
+            <li><a href="#Motto" style="font-size:80%;">Game</a></li>
+          </ul>
+
+
+        
+      </ul>
+    </nav>
+    
+    <section style="width:66%;height:1000px;display:flex;flex-direction:column;">
+    <h3 style="text-align:center">How to explore</h3>
+    <fieldset>
+      <legend>Find Image</legend>
+      <label for="name">마음에드는 이미지를 찾아 이동하세요, 그리고 내용을 확인하세요</label>
+    </fieldset>
+    </section>
+    <section id="motto">
+      
+
+
+
+      
+    </section>
+    <footer><br>End of File</footer>
+  </body>
+
+<script>
+  function myclick(who) {
+    var expand=document.getElementById(who);
+    if(expand.style.display!="none")
+    {
+      expand.style.display="none";
+    }
+    else
+    {
+       expand.style.display="block"; 
+    }
+  
+  return false;      
+}
+  
+</script>
+</html>
+
